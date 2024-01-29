@@ -1,0 +1,440 @@
+/* h1{
+    color: blueviolet;
+}
+p{
+    color: chocolate;
+}
+button{
+    background-color: crimson;
+    color: chartreuse;
+}
+body{
+    color:rgb(255,0,0);
+    background-color: rgb(0,255,0);
+}
+h2{
+    color:#ff00ff;
+}
+*{
+    color: burlywood;
+}
+#lala{
+    color: darkorchid;
+}
+.ee{
+    color: black;
+}
+#uu{
+    background-color: cadetblue;
+}
+.ff{
+   color:#ff0000; 
+}
+button{
+    color: green;
+}
+p{
+    text-align: center;
+}
+h6{
+    text-decoration: line-through;
+}
+h2{
+    font-weight: bolder;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 22px;
+}
+p{
+    line-height: 46px;
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+p{
+    font-family: "Times New Roman";
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+div{
+    height:100px;
+    color: black;
+    width:100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+/* h1{
+    color: red;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+
+/* div{
+    background-color: pink;
+    display: inline;
+}
+button{
+    background-color:yellowgreen;
+} */
+/* div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+} */
+
+ /* *{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    justify-content:flex-end;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    background-color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+} */
+
+/* .contentbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+footer{
+    color: #0f1111;
+
+    text-align: center;
+}
+#content{
+    height: 990px;
+} */ 
+
+
+/* 
+div{
+    height: 200px;
+    width: 200px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/1200px-Cat_November_2010-1a.jpg);background-repeat: no-repeat;background-size: cover;
+    color: blue;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+} */
+
+/* 
+ul{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+} */
+
+/* .outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+} */
+
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+ @media (max-width:300px)
+{
+    div{
+        background-color: green;
+    }
+}
+@media (min-width:300px) and (max-width:400px){
+    div{
+        background-color: pink;
+    }
+}  */
+
+/* .loader{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 20px solid blue;
+    border-top: 20px solid black;
+    animation: spinanimate 3s ease-in 0s infinite normal;
+}
+
+@keyframes spinanimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h4 {
+    margin: 0;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar li {
+    margin-right: 20px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.search i {
+    margin: 0 5px;
+}
+
+.search input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.section {
+    margin: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Additional Styles for other sections - adjust as needed */
+
+.sec-1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.white {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.white p {
+    margin: 0;
+}
+
+.middle {
+    text-align: center;
+    margin: 20px;
+}
+
+.sec-2 {
+    margin-bottom: 20px;
+}
+
+.sec-3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box-1 {
+    margin: 10px;
+    text-align: center;
+
+}
+
+.sec-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.box-2 {
+    margin: 10px;
+    text-align: center;
+}
+
+#see-more {
+    cursor: pointer;
+}
+
+.sec-5 {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.contact {
+    justify-content: space-around;
+}
+
+.address {
+    max-width: 400px;
+}
+
+.email {
+    margin-top: 10px;
+}
+
+.input {
+    padding: 8px;
+    flex: 1;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.button {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5a5f;
+    color: #fff;
+    cursor: pointer;
+}
+
+.middle h1 {
+    margin: 20px 0;
+}
+
+.sec-4A {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box-2A {
+    margin: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.sec-7 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.first, .second {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.first img {
+    max-width: 100px;
+}
+
+.first-1 span {
+    margin: 0 10px;
+}
+
+.third {
+    margin-top: 20px;
+    color: #ccc;
+}
+
+/* Additional styles for social links */
+
+.box-4 div {
+    display: flex;
+    gap: 10px;
+}
+
+.box-4 i {
+    font-size: 24px;
+}
+
+/* Media Query for smaller screens */
+
+@media (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav-bar {
+        margin-top: 10px;
+}
+}
